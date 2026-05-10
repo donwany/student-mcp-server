@@ -143,4 +143,5 @@ def delete_student(id: str) -> dict:
 
 # ── entry point ───────────────────────────────────────────────────────────────
 if __name__ == '__main__':
-    mcp.run(transport='streamable-http')
+    mcp.run(transport="http", host="127.0.0.1", port=8000)
+    # mcp.run(transport='streamable-http')
